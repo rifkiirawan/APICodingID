@@ -20,7 +20,7 @@
     },
     {
       &quot;name&quot;: &quot;password&quot;,
-      &quot;value&quot;: &quot;P@ssw0rd&quot;
+      &quot;value&quot;: &quot;123&quot;
     }
   ]
 }</httpBodyContent>

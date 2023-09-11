@@ -17,5 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequestAndVerify(findTestObject('API.LOG.002 - Verifikasi respon untuk login gagal'))
+response = WS.sendRequest(findTestObject('API.LOG.002 - Verifikasi respon untuk login gagal'))
+
+WS.verifyResponseStatusCode(response, 401)
 

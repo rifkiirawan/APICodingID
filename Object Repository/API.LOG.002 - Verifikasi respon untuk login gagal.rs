@@ -6,8 +6,8 @@
    <elementGuidId>9d847e47-b205-4931-94e0-753b5317405f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -20,7 +20,7 @@
     },
     {
       &quot;name&quot;: &quot;password&quot;,
-      &quot;value&quot;: &quot;123&quot;
+      &quot;value&quot;: &quot;P@ssw0rd&quot;
     }
   ]
 }</httpBodyContent>
@@ -34,7 +34,7 @@
       <webElementGuid>e4a662b0-428c-4716-99c7-47c9f3a3b14d</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.6</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
    <restUrl>https://demo-app.online/api/login</restUrl>
@@ -44,7 +44,7 @@
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
